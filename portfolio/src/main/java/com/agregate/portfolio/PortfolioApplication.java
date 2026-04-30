@@ -1,4 +1,4 @@
-package com.aggregate.portfolio;
+package com.agregate.portfolio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
