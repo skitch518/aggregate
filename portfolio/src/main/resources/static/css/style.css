@@ -1,0 +1,36 @@
+body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+h1 {
+    text-align: center;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 1.5rem;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside li a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+}
+
+aside li a.active {
+    background-color: var(--pico-primary-background);
+    color: var(--pico-primary-inverse);
+}
+
+aside {
+    padding: 1rem;
+    background-color: var(--pico-card-background-color);
+    border-radius: 0.5rem;
+}

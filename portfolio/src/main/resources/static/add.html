@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/pico.min.css">
+    <title>Hello world!</title>
+  </head>
+  <body>
+    <main class="container">
+      <form>
+  <fieldset>
+    <label>
+      Ticker Symbol
+      <input
+        type="text"
+        symbol ="ticker" 
+        required
+      />
+    </label>
+    <label>
+      Number of Shares
+      <input
+       type = "number" 
+       shares ="shares"
+       step = "any"
+       required
+      />
+    </label>
+    <label>
+      Share purchase price
+      <input
+       type = "number" 
+       purchasePrice ="purchasePrice"
+       step = "0.01"
+       required
+      />
+    </label>
+  </fieldset>
+
+  <input
+    type="submit"
+    value="Subscribe"
+  />
+</form>
+    </main>
+  </body>
+</html>
