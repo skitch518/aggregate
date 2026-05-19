@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <link rel="stylesheet" href="css/pico.min.css">
-    <title>Hello world!</title>
+    <title>Add ticker to Portfolio</title>
   </head>
   <body>
     <main class="container">
@@ -15,7 +15,7 @@
       Ticker Symbol
       <input
         type="text"
-        symbol ="ticker" 
+        name ="ticker" 
         required
       />
     </label>
@@ -23,7 +23,7 @@
       Number of Shares
       <input
        type = "number" 
-       shares ="shares"
+       name ="shares"
        step = "any"
        required
       />
@@ -32,7 +32,7 @@
       Share purchase price
       <input
        type = "number" 
-       purchasePrice ="purchasePrice"
+       name ="purchasePrice"
        step = "0.01"
        required
       />
@@ -41,7 +41,7 @@
 
   <input
     type="submit"
-    value="Subscribe"
+    value="Submit"
   />
 </form>
     </main>
